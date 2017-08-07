@@ -1,0 +1,11 @@
+C:\Users\SaulE\documents\visual studio 2017\Projects\ServidorCSharp\ThriftStructs\bin\Debug\ThriftStructs.dll
+C:\Users\SaulE\documents\visual studio 2017\Projects\ServidorCSharp\ThriftStructs\bin\Debug\ThriftStructs.pdb
+C:\Users\SaulE\documents\visual studio 2017\Projects\ServidorCSharp\ThriftStructs\bin\Debug\Thrift.dll
+C:\Users\SaulE\documents\visual studio 2017\Projects\ServidorCSharp\ThriftStructs\obj\Debug\ThriftStructs.dll
+C:\Users\SaulE\documents\visual studio 2017\Projects\ServidorCSharp\ThriftStructs\obj\Debug\ThriftStructs.pdb
+C:\Users\SaulE\Documents\Bitbucket\Clases en Línea\ClasesEnLineaCSharp\ServidorCSharp\ThriftStructs\bin\Debug\ThriftStructs.dll
+C:\Users\SaulE\Documents\Bitbucket\Clases en Línea\ClasesEnLineaCSharp\ServidorCSharp\ThriftStructs\bin\Debug\ThriftStructs.pdb
+C:\Users\SaulE\Documents\Bitbucket\Clases en Línea\ClasesEnLineaCSharp\ServidorCSharp\ThriftStructs\bin\Debug\Thrift.dll
+C:\Users\SaulE\Documents\Bitbucket\Clases en Línea\ClasesEnLineaCSharp\ServidorCSharp\ThriftStructs\obj\Debug\ThriftStructs.csprojResolveAssemblyReference.cache
+C:\Users\SaulE\Documents\Bitbucket\Clases en Línea\ClasesEnLineaCSharp\ServidorCSharp\ThriftStructs\obj\Debug\ThriftStructs.dll
+C:\Users\SaulE\Documents\Bitbucket\Clases en Línea\ClasesEnLineaCSharp\ServidorCSharp\ThriftStructs\obj\Debug\ThriftStructs.pdb

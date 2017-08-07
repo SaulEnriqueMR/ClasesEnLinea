@@ -1,0 +1,16 @@
+C:\Users\SaulE\documents\visual studio 2017\Projects\ServidorCSharp\ThriftServices\bin\Debug\ThriftServices.dll
+C:\Users\SaulE\documents\visual studio 2017\Projects\ServidorCSharp\ThriftServices\bin\Debug\ThriftServices.pdb
+C:\Users\SaulE\documents\visual studio 2017\Projects\ServidorCSharp\ThriftServices\bin\Debug\Thrift.dll
+C:\Users\SaulE\documents\visual studio 2017\Projects\ServidorCSharp\ThriftServices\bin\Debug\ThriftStructs.dll
+C:\Users\SaulE\documents\visual studio 2017\Projects\ServidorCSharp\ThriftServices\bin\Debug\ThriftStructs.pdb
+C:\Users\SaulE\documents\visual studio 2017\Projects\ServidorCSharp\ThriftServices\obj\Debug\ThriftServices.csprojResolveAssemblyReference.cache
+C:\Users\SaulE\documents\visual studio 2017\Projects\ServidorCSharp\ThriftServices\obj\Debug\ThriftServices.dll
+C:\Users\SaulE\documents\visual studio 2017\Projects\ServidorCSharp\ThriftServices\obj\Debug\ThriftServices.pdb
+C:\Users\SaulE\Documents\Bitbucket\Clases en Línea\ClasesEnLineaCSharp\ServidorCSharp\ThriftServices\bin\Debug\ThriftServices.dll
+C:\Users\SaulE\Documents\Bitbucket\Clases en Línea\ClasesEnLineaCSharp\ServidorCSharp\ThriftServices\bin\Debug\ThriftServices.pdb
+C:\Users\SaulE\Documents\Bitbucket\Clases en Línea\ClasesEnLineaCSharp\ServidorCSharp\ThriftServices\bin\Debug\Thrift.dll
+C:\Users\SaulE\Documents\Bitbucket\Clases en Línea\ClasesEnLineaCSharp\ServidorCSharp\ThriftServices\bin\Debug\ThriftStructs.dll
+C:\Users\SaulE\Documents\Bitbucket\Clases en Línea\ClasesEnLineaCSharp\ServidorCSharp\ThriftServices\bin\Debug\ThriftStructs.pdb
+C:\Users\SaulE\Documents\Bitbucket\Clases en Línea\ClasesEnLineaCSharp\ServidorCSharp\ThriftServices\obj\Debug\ThriftServices.csprojResolveAssemblyReference.cache
+C:\Users\SaulE\Documents\Bitbucket\Clases en Línea\ClasesEnLineaCSharp\ServidorCSharp\ThriftServices\obj\Debug\ThriftServices.dll
+C:\Users\SaulE\Documents\Bitbucket\Clases en Línea\ClasesEnLineaCSharp\ServidorCSharp\ThriftServices\obj\Debug\ThriftServices.pdb

@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ClasesEnLineaModelStoreContainer" CdmEntityContainer="ClasesEnLineaEntities">
+    <EntitySetMapping Name="cuenta">
+      <EntityTypeMapping TypeName="ClasesEnLineaModel.cuenta">
+        <MappingFragment StoreEntitySet="cuenta">
+          <ScalarProperty Name="idCuenta" ColumnName="idCuenta" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="usuario" ColumnName="usuario" />
+          <ScalarProperty Name="contrasena" ColumnName="contrasena" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="eeasistencia">
+      <EntityTypeMapping TypeName="ClasesEnLineaModel.eeasistencia">
+        <MappingFragment StoreEntitySet="eeasistencia">
+          <ScalarProperty Name="idEEAsistencia" ColumnName="idEEAsistencia" />
+          <ScalarProperty Name="idEEImpartida" ColumnName="idEEImpartida" />
+          <ScalarProperty Name="idCuenta" ColumnName="idCuenta" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="eeimpartida">
+      <EntityTypeMapping TypeName="ClasesEnLineaModel.eeimpartida">
+        <MappingFragment StoreEntitySet="eeimpartida">
+          <ScalarProperty Name="idEEImpartida" ColumnName="idEEImpartida" />
+          <ScalarProperty Name="idEE" ColumnName="idEE" />
+          <ScalarProperty Name="idCuenta" ColumnName="idCuenta" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="experienciaeducativa">
+      <EntityTypeMapping TypeName="ClasesEnLineaModel.experienciaeducativa">
+        <MappingFragment StoreEntitySet="experienciaeducativa">
+          <ScalarProperty Name="idExperienciaEducativa" ColumnName="idExperienciaEducativa" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="eeasistenciaview">
+      <EntityTypeMapping TypeName="ClasesEnLineaModel.eeasistenciaview">
+        <MappingFragment StoreEntitySet="eeasistenciaview">
+          <ScalarProperty Name="idEEImpartida" ColumnName="idEEImpartida" />
+          <ScalarProperty Name="ee" ColumnName="ee" />
+          <ScalarProperty Name="maestro" ColumnName="maestro" />
+          <ScalarProperty Name="idCuenta" ColumnName="idCuenta" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="eeimpartidaview">
+      <EntityTypeMapping TypeName="ClasesEnLineaModel.eeimpartidaview">
+        <MappingFragment StoreEntitySet="eeimpartidaview">
+          <ScalarProperty Name="idEEImpartida" ColumnName="idEEImpartida" />
+          <ScalarProperty Name="ee" ColumnName="ee" />
+          <ScalarProperty Name="maestro" ColumnName="maestro" />
+          <ScalarProperty Name="idCuenta" ColumnName="idCuenta" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

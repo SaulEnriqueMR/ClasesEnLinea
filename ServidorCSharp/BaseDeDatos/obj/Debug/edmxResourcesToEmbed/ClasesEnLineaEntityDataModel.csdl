@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ClasesEnLineaModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="cuenta">
+    <Key>
+      <PropertyRef Name="idCuenta" />
+    </Key>
+    <Property Name="idCuenta" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="usuario" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="contrasena" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="eeasistencia" Relationship="Self.idcuenta_idalumno" FromRole="cuenta" ToRole="eeasistencia" />
+    <NavigationProperty Name="eeimpartida" Relationship="Self.idcuenta_idmaestro" FromRole="cuenta" ToRole="eeimpartida" />
+  </EntityType>
+  <EntityType Name="eeasistencia">
+    <Key>
+      <PropertyRef Name="idEEAsistencia" />
+    </Key>
+    <Property Name="idEEAsistencia" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="idEEImpartida" Type="Int32" Nullable="false" />
+    <Property Name="idCuenta" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="cuenta" Relationship="Self.idcuenta_idalumno" FromRole="eeasistencia" ToRole="cuenta" />
+    <NavigationProperty Name="eeimpartida" Relationship="Self.ideetomada_ideeimpartida" FromRole="eeasistencia" ToRole="eeimpartida" />
+  </EntityType>
+  <EntityType Name="eeimpartida">
+    <Key>
+      <PropertyRef Name="idEEImpartida" />
+    </Key>
+    <Property Name="idEEImpartida" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="idEE" Type="Int32" Nullable="false" />
+    <Property Name="idCuenta" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="cuenta" Relationship="Self.idcuenta_idmaestro" FromRole="eeimpartida" ToRole="cuenta" />
+    <NavigationProperty Name="eeasistencia" Relationship="Self.ideetomada_ideeimpartida" FromRole="eeimpartida" ToRole="eeasistencia" />
+    <NavigationProperty Name="experienciaeducativa" Relationship="Self.idee_idimpartida" FromRole="eeimpartida" ToRole="experienciaeducativa" />
+  </EntityType>
+  <EntityType Name="experienciaeducativa">
+    <Key>
+      <PropertyRef Name="idExperienciaEducativa" />
+    </Key>
+    <Property Name="idExperienciaEducativa" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="eeimpartida" Relationship="Self.idee_idimpartida" FromRole="experienciaeducativa" ToRole="eeimpartida" />
+  </EntityType>
+  <EntityType Name="eeasistenciaview">
+    <Key>
+      <PropertyRef Name="idEEImpartida" />
+      <PropertyRef Name="ee" />
+      <PropertyRef Name="maestro" />
+      <PropertyRef Name="idCuenta" />
+    </Key>
+    <Property Name="idEEImpartida" Type="Int32" Nullable="false" />
+    <Property Name="ee" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="maestro" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="idCuenta" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="eeimpartidaview">
+    <Key>
+      <PropertyRef Name="idEEImpartida" />
+      <PropertyRef Name="ee" />
+      <PropertyRef Name="maestro" />
+      <PropertyRef Name="idCuenta" />
+    </Key>
+    <Property Name="idEEImpartida" Type="Int32" Nullable="false" />
+    <Property Name="ee" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="maestro" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="idCuenta" Type="Int32" Nullable="false" />
+  </EntityType>
+  <Association Name="idcuenta_idalumno">
+    <End Role="cuenta" Type="Self.cuenta" Multiplicity="1" />
+    <End Role="eeasistencia" Type="Self.eeasistencia" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="cuenta">
+        <PropertyRef Name="idCuenta" />
+      </Principal>
+      <Dependent Role="eeasistencia">
+        <PropertyRef Name="idCuenta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="idcuenta_idmaestro">
+    <End Role="cuenta" Type="Self.cuenta" Multiplicity="1" />
+    <End Role="eeimpartida" Type="Self.eeimpartida" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="cuenta">
+        <PropertyRef Name="idCuenta" />
+      </Principal>
+      <Dependent Role="eeimpartida">
+        <PropertyRef Name="idCuenta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="ideetomada_ideeimpartida">
+    <End Role="eeimpartida" Type="Self.eeimpartida" Multiplicity="1" />
+    <End Role="eeasistencia" Type="Self.eeasistencia" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="eeimpartida">
+        <PropertyRef Name="idEEImpartida" />
+      </Principal>
+      <Dependent Role="eeasistencia">
+        <PropertyRef Name="idEEImpartida" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="idee_idimpartida">
+    <End Role="experienciaeducativa" Type="Self.experienciaeducativa" Multiplicity="1" />
+    <End Role="eeimpartida" Type="Self.eeimpartida" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="experienciaeducativa">
+        <PropertyRef Name="idExperienciaEducativa" />
+      </Principal>
+      <Dependent Role="eeimpartida">
+        <PropertyRef Name="idEE" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ClasesEnLineaEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="cuenta" EntityType="Self.cuenta" />
+    <EntitySet Name="eeasistencia" EntityType="Self.eeasistencia" />
+    <EntitySet Name="eeimpartida" EntityType="Self.eeimpartida" />
+    <EntitySet Name="experienciaeducativa" EntityType="Self.experienciaeducativa" />
+    <EntitySet Name="eeasistenciaview" EntityType="Self.eeasistenciaview" />
+    <EntitySet Name="eeimpartidaview" EntityType="Self.eeimpartidaview" />
+    <AssociationSet Name="idcuenta_idalumno" Association="Self.idcuenta_idalumno">
+      <End Role="cuenta" EntitySet="cuenta" />
+      <End Role="eeasistencia" EntitySet="eeasistencia" />
+    </AssociationSet>
+    <AssociationSet Name="idcuenta_idmaestro" Association="Self.idcuenta_idmaestro">
+      <End Role="cuenta" EntitySet="cuenta" />
+      <End Role="eeimpartida" EntitySet="eeimpartida" />
+    </AssociationSet>
+    <AssociationSet Name="ideetomada_ideeimpartida" Association="Self.ideetomada_ideeimpartida">
+      <End Role="eeimpartida" EntitySet="eeimpartida" />
+      <End Role="eeasistencia" EntitySet="eeasistencia" />
+    </AssociationSet>
+    <AssociationSet Name="idee_idimpartida" Association="Self.idee_idimpartida">
+      <End Role="experienciaeducativa" EntitySet="experienciaeducativa" />
+      <End Role="eeimpartida" EntitySet="eeimpartida" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

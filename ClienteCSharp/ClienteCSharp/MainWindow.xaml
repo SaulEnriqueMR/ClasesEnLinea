@@ -1,0 +1,18 @@
+﻿<Window x:Class="ClienteCSharp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ClienteCSharp"
+        mc:Ignorable="d"
+        Title="Iniciar Sesión" Height="355" Width="425">
+    <Grid>
+        <TextBlock x:Name="TxtBlUsuario" Text="Usuario:" HorizontalAlignment="Left" Margin="42,131,0,0" VerticalAlignment="Top" IsEnabled="False" Width="80" TextAlignment="Right" Height="25"/>
+        <TextBlock x:Name="TxtBlContrasena" Text="Contraseña:" HorizontalAlignment="Left" Margin="42,176,0,0" VerticalAlignment="Top" IsEnabled="False" Width="80" TextAlignment="Right" Height="25"/>
+        <Button x:Name="BtnIniciarSesion" Content="Iniciar sesión" HorizontalAlignment="Left" Margin="175,235,0,0" VerticalAlignment="Top" Width="85" Height="25" Cursor="Hand" Click="BtnIniciarSesion_Click"/>
+        <PasswordBox x:Name="PwdBxContrasena" Password=""  HorizontalAlignment="Left" Margin="150,176,0,0" VerticalAlignment="Top" Width="225" Height="25"/>
+        <TextBox x:Name="TxtBxUsuario" Text="" HorizontalAlignment="Left" Height="25" Margin="150,131,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="225"/>
+        <TextBlock x:Name="TxtBlRegistrarse" Cursor="Hand" Text="¿No tienes una cuenta? Registrate" HorizontalAlignment="Left" Margin="175,284,0,0" VerticalAlignment="Top" Width="200" Height="21" MouseDown="TxtblRegistrarse_MouseDown" TextAlignment="Right"/>
+        <Image x:Name="ImgLogo" Stretch="Uniform" HorizontalAlignment="Left" Height="75" Margin="183,22,0,0" VerticalAlignment="Top" Width="77" Source="/images/login.png" IsEnabled="False"/>
+    </Grid>
+</Window>

@@ -1,0 +1,17 @@
+c:\Users\SaulE\Documents\Visual Studio 2017\Projects\ServidorCSharp\ThriftStructures\bin\Debug\ThriftStructures.dll
+c:\Users\SaulE\Documents\Visual Studio 2017\Projects\ServidorCSharp\ThriftStructures\bin\Debug\ThriftStructures.pdb
+c:\Users\SaulE\Documents\Visual Studio 2017\Projects\ServidorCSharp\ThriftStructures\obj\Debug\ThriftStructs.csprojResolveAssemblyReference.cache
+c:\Users\SaulE\Documents\Visual Studio 2017\Projects\ServidorCSharp\ThriftStructures\obj\Debug\ThriftStructures.dll
+c:\Users\SaulE\Documents\Visual Studio 2017\Projects\ServidorCSharp\ThriftStructures\obj\Debug\ThriftStructures.pdb
+c:\Users\SaulE\Documents\Visual Studio 2017\Projects\ServidorCSharp\ThriftStructs\bin\Debug\ThriftStructs.dll
+c:\Users\SaulE\Documents\Visual Studio 2017\Projects\ServidorCSharp\ThriftStructs\bin\Debug\ThriftStructs.pdb
+c:\Users\SaulE\Documents\Visual Studio 2017\Projects\ServidorCSharp\ThriftStructs\obj\Debug\ThriftStructs.csprojResolveAssemblyReference.cache
+c:\Users\SaulE\Documents\Visual Studio 2017\Projects\ServidorCSharp\ThriftStructs\obj\Debug\ThriftStructs.dll
+c:\Users\SaulE\Documents\Visual Studio 2017\Projects\ServidorCSharp\ThriftStructs\obj\Debug\ThriftStructs.pdb
+c:\Users\SaulE\Documents\Visual Studio 2017\Projects\ServidorCSharp\ThriftStructs\bin\Debug\Thrift.dll
+C:\Users\SaulE\Documents\Bitbucket\Clases en Línea\ClasesEnLineaCSharp\ClienteCSharp\ThriftStructs\bin\Debug\ThriftStructs.dll
+C:\Users\SaulE\Documents\Bitbucket\Clases en Línea\ClasesEnLineaCSharp\ClienteCSharp\ThriftStructs\bin\Debug\ThriftStructs.pdb
+C:\Users\SaulE\Documents\Bitbucket\Clases en Línea\ClasesEnLineaCSharp\ClienteCSharp\ThriftStructs\bin\Debug\Thrift.dll
+C:\Users\SaulE\Documents\Bitbucket\Clases en Línea\ClasesEnLineaCSharp\ClienteCSharp\ThriftStructs\obj\Debug\ThriftStructs.csprojResolveAssemblyReference.cache
+C:\Users\SaulE\Documents\Bitbucket\Clases en Línea\ClasesEnLineaCSharp\ClienteCSharp\ThriftStructs\obj\Debug\ThriftStructs.dll
+C:\Users\SaulE\Documents\Bitbucket\Clases en Línea\ClasesEnLineaCSharp\ClienteCSharp\ThriftStructs\obj\Debug\ThriftStructs.pdb

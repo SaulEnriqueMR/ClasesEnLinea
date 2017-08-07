@@ -1,0 +1,7 @@
+C:\Users\Maiana\Desktop\Nueva carpeta\AvCapWPF\WpfCap\bin\Debug\WpfCap.dll
+C:\Users\Maiana\Desktop\Nueva carpeta\AvCapWPF\WpfCap\bin\Debug\WpfCap.pdb
+C:\Users\Maiana\Desktop\Nueva carpeta\AvCapWPF\WpfCap\obj\Debug\WpfCap.csprojResolveAssemblyReference.cache
+C:\Users\Maiana\Desktop\Nueva carpeta\AvCapWPF\WpfCap\obj\Debug\WpfCap.Properties.Resources.resources
+C:\Users\Maiana\Desktop\Nueva carpeta\AvCapWPF\WpfCap\obj\Debug\WpfCap.csproj.GenerateResource.Cache
+C:\Users\Maiana\Desktop\Nueva carpeta\AvCapWPF\WpfCap\obj\Debug\WpfCap.dll
+C:\Users\Maiana\Desktop\Nueva carpeta\AvCapWPF\WpfCap\obj\Debug\WpfCap.pdb

@@ -1,0 +1,15 @@
+﻿<Window x:Class="ClienteCSharp.VisorDiapositivas"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ClienteCSharp"
+        mc:Ignorable="d"
+        Title="Visor de diapositivas" Height="600" Width="1000" >
+    <Grid>
+        <WebBrowser x:Name="WBsrVisor" HorizontalAlignment="Left" Height="486" VerticalAlignment="Top" Width="992"/>
+        <Button x:Name="BtnAvanzar" Click="BtnAvanzar_Click" Content="Avanzar Diapositiva" HorizontalAlignment="Left" Margin="704,517,0,0" VerticalAlignment="Top" Width="139"/>
+        <Button x:Name="BtnRegresar" Click="BtnRegresar_Click" Content="Regresar diapositiva" HorizontalAlignment="Left" Margin="117,517,0,0" VerticalAlignment="Top" Width="139"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,17 @@
+﻿<Window x:Class="ClienteCSharp.RegistrarExperienciaEducativa"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ClienteCSharp"
+        mc:Ignorable="d"
+        Closing="Window_Closing"
+        Title="Registrar Experiencia Educativa" Height="165" Width="400">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="133,10,0,0" TextWrapping="Wrap" Text="Ingrese nombre de la EE:" VerticalAlignment="Top"/>
+        <TextBox x:Name="TxtBxNombreEE" HorizontalAlignment="Left" Height="23" Margin="10,44,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="372"/>
+        <Button x:Name="BtnRegistrarEE" Click="BtnRegistrarEE_Click" Content="Registrar" HorizontalAlignment="Left" Margin="266,92,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="BtnCancelar" Click="BtnCancelar_Click" Content="Cancelar" HorizontalAlignment="Left" Margin="54,92,0,0" VerticalAlignment="Top" Width="75"/>
+
+    </Grid>
+</Window>

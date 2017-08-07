@@ -1,0 +1,32 @@
+C:\Users\Maiana\Desktop\Nueva carpeta\AvCapWPF\AvCapWPF\bin\Debug\AvCapWPF.exe
+C:\Users\Maiana\Desktop\Nueva carpeta\AvCapWPF\AvCapWPF\bin\Debug\AvCapWPF.pdb
+C:\Users\Maiana\Desktop\Nueva carpeta\AvCapWPF\AvCapWPF\bin\Debug\WpfCap.dll
+C:\Users\Maiana\Desktop\Nueva carpeta\AvCapWPF\AvCapWPF\bin\Debug\WpfCap.pdb
+C:\Users\Maiana\Desktop\Nueva carpeta\AvCapWPF\AvCapWPF\obj\Debug\AvCapWPF.csprojResolveAssemblyReference.cache
+C:\Users\Maiana\Desktop\Nueva carpeta\AvCapWPF\AvCapWPF\obj\Debug\Window1.g.cs
+C:\Users\Maiana\Desktop\Nueva carpeta\AvCapWPF\AvCapWPF\obj\Debug\App.g.cs
+C:\Users\Maiana\Desktop\Nueva carpeta\AvCapWPF\AvCapWPF\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Maiana\Desktop\Nueva carpeta\AvCapWPF\AvCapWPF\obj\Debug\AvCapWPF_MarkupCompile.cache
+C:\Users\Maiana\Desktop\Nueva carpeta\AvCapWPF\AvCapWPF\obj\Debug\AvCapWPF_MarkupCompile.lref
+C:\Users\Maiana\Desktop\Nueva carpeta\AvCapWPF\AvCapWPF\obj\Debug\Window1.baml
+C:\Users\Maiana\Desktop\Nueva carpeta\AvCapWPF\AvCapWPF\obj\Debug\AvCapWPF.g.resources
+C:\Users\Maiana\Desktop\Nueva carpeta\AvCapWPF\AvCapWPF\obj\Debug\AvCapWPF.Properties.Resources.resources
+C:\Users\Maiana\Desktop\Nueva carpeta\AvCapWPF\AvCapWPF\obj\Debug\AvCapWPF.csproj.GenerateResource.Cache
+C:\Users\Maiana\Desktop\Nueva carpeta\AvCapWPF\AvCapWPF\obj\Debug\AvCapWPF.exe
+C:\Users\Maiana\Desktop\Nueva carpeta\AvCapWPF\AvCapWPF\obj\Debug\AvCapWPF.pdb
+C:\Users\SaulE\Documents\Bitbucket\Clases en Línea\ClasesEnLineaCSharp\ClienteCSharp\AvCapWPF\AvCapWPF\bin\Debug\AvCapWPF.exe
+C:\Users\SaulE\Documents\Bitbucket\Clases en Línea\ClasesEnLineaCSharp\ClienteCSharp\AvCapWPF\AvCapWPF\bin\Debug\AvCapWPF.pdb
+C:\Users\SaulE\Documents\Bitbucket\Clases en Línea\ClasesEnLineaCSharp\ClienteCSharp\AvCapWPF\AvCapWPF\bin\Debug\WpfCap.dll
+C:\Users\SaulE\Documents\Bitbucket\Clases en Línea\ClasesEnLineaCSharp\ClienteCSharp\AvCapWPF\AvCapWPF\bin\Debug\WpfCap.pdb
+C:\Users\SaulE\Documents\Bitbucket\Clases en Línea\ClasesEnLineaCSharp\ClienteCSharp\AvCapWPF\AvCapWPF\obj\Debug\AvCapWPF.csprojResolveAssemblyReference.cache
+C:\Users\SaulE\Documents\Bitbucket\Clases en Línea\ClasesEnLineaCSharp\ClienteCSharp\AvCapWPF\AvCapWPF\obj\Debug\Window1.g.cs
+C:\Users\SaulE\Documents\Bitbucket\Clases en Línea\ClasesEnLineaCSharp\ClienteCSharp\AvCapWPF\AvCapWPF\obj\Debug\App.g.cs
+C:\Users\SaulE\Documents\Bitbucket\Clases en Línea\ClasesEnLineaCSharp\ClienteCSharp\AvCapWPF\AvCapWPF\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\SaulE\Documents\Bitbucket\Clases en Línea\ClasesEnLineaCSharp\ClienteCSharp\AvCapWPF\AvCapWPF\obj\Debug\AvCapWPF_MarkupCompile.cache
+C:\Users\SaulE\Documents\Bitbucket\Clases en Línea\ClasesEnLineaCSharp\ClienteCSharp\AvCapWPF\AvCapWPF\obj\Debug\AvCapWPF_MarkupCompile.lref
+C:\Users\SaulE\Documents\Bitbucket\Clases en Línea\ClasesEnLineaCSharp\ClienteCSharp\AvCapWPF\AvCapWPF\obj\Debug\Window1.baml
+C:\Users\SaulE\Documents\Bitbucket\Clases en Línea\ClasesEnLineaCSharp\ClienteCSharp\AvCapWPF\AvCapWPF\obj\Debug\AvCapWPF.g.resources
+C:\Users\SaulE\Documents\Bitbucket\Clases en Línea\ClasesEnLineaCSharp\ClienteCSharp\AvCapWPF\AvCapWPF\obj\Debug\AvCapWPF.Properties.Resources.resources
+C:\Users\SaulE\Documents\Bitbucket\Clases en Línea\ClasesEnLineaCSharp\ClienteCSharp\AvCapWPF\AvCapWPF\obj\Debug\AvCapWPF.csproj.GenerateResource.Cache
+C:\Users\SaulE\Documents\Bitbucket\Clases en Línea\ClasesEnLineaCSharp\ClienteCSharp\AvCapWPF\AvCapWPF\obj\Debug\AvCapWPF.exe
+C:\Users\SaulE\Documents\Bitbucket\Clases en Línea\ClasesEnLineaCSharp\ClienteCSharp\AvCapWPF\AvCapWPF\obj\Debug\AvCapWPF.pdb
